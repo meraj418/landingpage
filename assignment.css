@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body{
+    margin: 0px;
+}
+#topbar{
+    width: 100%;
+    height: 77px;
+    padding: 0 85px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    }
+#logo{
+    width: 120px;
+    
+}
+#menu{
+    word-spacing: 30px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.imp:hover {
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+     
+}
+#btn{
+    background-color:#FFD8DB;
+    padding: 15px 20px;
+    border-radius: 16px;
+    border-style: none;
+}
+#btn:hover{
+    color: #ffffff;
+    background-color: #A389CC;
+    cursor: pointer;
+}
+#firstSection{
+    font-size: 39px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 85px;
+}
+#firstSection i{
+    font-size: 10px;
+    color: blue;
+}
+.head-5{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+}
+#btn-2{
+    font-size: 12px;
+    color: #ffffff;
+    background-color:#5243C0;
+    padding: 22px 28px;
+    border-radius: 20px;
+    border-style: none;
+    margin-right: 20px; 
+}
+#btn-2:hover{
+    color: #000;
+    background-color: #A389CC;
+    cursor: pointer;
+}
+.down{
+    width: 45px;
+    height: 55px;
+    margin-right: 10px; 
+    border-radius: 20px;  
+}
+.down:hover{
+    cursor: pointer;
+    background-color:black;
+}
+#wrapper{
+    display: flex;   
+    }
+#section-wrapper{
+    background-color: rgb(247, 235, 235);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 27%;
+    margin-top: 65px;
+    border-style: none;
+    padding: 5px 0px;
+}   
+#section-wrapper2{
+    background-color: rgb(247, 235, 235);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 27%;
+    margin-top: 1px;
+    border-style: none;
+    padding: 5px 0px;
+}   
+#section-wrapper3{
+    background-color: rgb(247, 235, 235);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 27%;
+    margin-top: 1px;
+    border-style: none;
+    padding: 5px 0px;
+}    
+#section-wrapper4{
+    background-color: rgb(247, 235, 235);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 27%;
+    margin-top: 1px;
+    margin-bottom: 45px;
+    border-style: none;
+    padding: 5px 0px;
+}    
+.mark{
+    width: 50px;
+    height: 50px;
+    background-image: url(./tick-gray.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 8px;
+}
+.mark:hover{
+    
+    background-image: url(./tick-blue.png);
+}
+
+
+.para{
+    font-size: 13px;
+    margin: 18px 0px 2px 6px;
+}
+.cont{
+    width: 50px;
+    height: 50px;
+    margin-left: 29px;
+}
+.cont2{
+    width: 50px;
+    height: 50px;
+    margin-left: 13px;
+}
+.cont3{
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+}
+.cont4{
+    width: 50px;
+    height: 50px;
+    margin-left: 63px;
+
+}
+.date{
+    font-size: 12px;
+     margin: 20px; 
+}
+.btn-31{
+    padding: 0px 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-color: pink;
+    border-style: none;
+}
+.btn-32{
+    padding: 0px 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-color:orangered;
+    border-style: none;
+}
+.btn-33{
+    padding: 0px 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-color:lightblue;
+    border-style: none;
+}
+.btn-34{
+    padding: 0px 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background-color:peru;
+    border-style: none;
+}
+
+
+#section-wrapper:hover {
+    background-color: white;z
+}
+#section-wrapper2:hover {
+    background-color: white;
+}
+#section-wrapper3:hover {
+    background-color: white;
+}
+#section-wrapper4:hover {
+    background-color: white;
+}
+#landing{
+    position: absolute;
+    top: 20%;
+    left:40%;
+}
+
